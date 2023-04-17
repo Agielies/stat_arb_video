@@ -4,7 +4,7 @@ import numpy as np
 class StockPrice(Scene):
     def construct(self):
         # Define parameters
-        S0 = 30  # initial stock price
+        S0 = 40  # initial stock price
         r = 0.05  # risk-free interest rate
         sigma = 0.3  # volatility
         T = 2  # time horizon
